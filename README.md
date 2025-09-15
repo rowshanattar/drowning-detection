@@ -4,12 +4,12 @@ A Streamlit app for **people detection and tracking in sea** to support **drowni
 It combines **YOLOv8** (Ultralytics) for detection, **DeepSORT** for multi-object tracking, and **SAM (Segment Anything)** to define a water-region mask (used here to derive a static water bounding box at start).
 
 ## Features
-- 🔍 **YOLOv8** person detection
-- 🧭 **DeepSORT** multi-object tracking (IDs over time)
-- ✂️ **SAM (Segment Anything)**-assisted water-area selection (single-shot to compute a static water bounding box)
-- 🖼️ Video input via file upload 
-- 📈 Console logs for YOLO / DeepSORT stats per frame
-- 🧪 Evaluated papers listed under `papers/` with notes in `evaluation/`
+-  **YOLOv8** person detection
+-  **DeepSORT** multi-object tracking (IDs over time)
+-  **SAM (Segment Anything)**-assisted water-area selection (single-shot to compute a static water bounding box)
+-  Video input via file upload 
+-  Console logs for YOLO / DeepSORT stats per frame
+-  Evaluated papers listed under `papers/` with notes in `evaluation/`
 
 
 ## Setup
