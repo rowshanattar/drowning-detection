@@ -1,0 +1,10 @@
+# Core
+ultralytics>=8.0.0
+opencv-python>=4.8.0.74
+numpy>=1.24
+streamlit>=1.29
+deep-sort-realtime>=1.3.2
+segment-anything>=1.0
+# Torch (install a CUDA-specific build first if you have GPU; else this will pull CPU by default)
+torch>=2.1
+
