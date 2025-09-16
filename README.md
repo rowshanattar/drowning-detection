@@ -56,12 +56,6 @@ Then open the URL shown in the terminal (usually http://localhost:8501).
 - See `papers/` for the list of related work used in the project.
 - See `papers/evaluation` for your experiment notes, metrics, and comparisons across models / configs.
 
-## Tips
-- If you see `non-fast-forward` errors when pushing to GitHub, either pull with rebase or push with `--force-with-lease` if the remote is disposable.
-- Consider adding a `.gitignore` to avoid committing large files (models, videos, checkpoints).
-
-## License
-Add your license choice here (e.g., MIT).
 
 ## Acknowledgments
 - **Ultralytics YOLOv8**
