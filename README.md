@@ -54,7 +54,7 @@ Then open the URL shown in the terminal (usually http://localhost:8501).
 
 ## Notes on Evaluation
 - See `papers/` for the list of related work used in the project.
-- See `papers/evaluation` for your experiment notes, metrics, and comparisons across models / configs.
+- See `papers/evaluation` for your experiment notes, metrics, and comparisons across some approaches.
 
 
 ## Acknowledgments
