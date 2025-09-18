@@ -37,7 +37,7 @@ class DrowningDetector:
     - Diese Logik modelliert nur 'Unsichtbarkeit', nicht echtes Ertrinkungsverhalten.
     - FPS muss zur tatsächlichen Video-FPS passen!
     """
-    def __init__(self, fps=20, threshold_seconds=1.5, max_warnings=1):
+    def __init__(self, fps=30, threshold_seconds=2, max_warnings=1):
         self.fps = fps
         self.threshold_frames = int(threshold_seconds * fps)
         self.max_warnings = max_warnings
@@ -102,7 +102,7 @@ if uploaded_video is not None:
         deepsort = DeepSort(max_age=90, n_init=5, max_cosine_distance=0.4)
 
         # Alarm-Heuristik (FPS-Schätzung anpassen, falls Video-FPS abweichen)
-        drowning_detector = DrowningDetector(fps=20, threshold_seconds=2)
+        drowning_detector = DrowningDetector(fps=30, threshold_seconds=2)
         frame_count = 0
         water_box = None  # (x_min, y_min, x_max, y_max)
 
